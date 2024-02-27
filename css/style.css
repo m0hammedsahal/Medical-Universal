@@ -1,0 +1,620 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src:url('../fonts/Montserrat-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+body {
+	font-family: 'Montserrat-Regular';
+
+}
+
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+:root{
+	--text-color: #252B42;
+	--second-text-color: #737373;
+	--primary-color: #FC724D;
+	
+
+}
+section#home {
+	background: linear-gradient(to right, rgb(255, 252, 252), rgba(75, 75, 86, 0.228)), 
+				url(../images/cover-photo-01.png);
+	opacity: 1;
+	transition: opacity 0.3s ease-in-out;
+	background-size: cover;
+}
+  
+  section#home header{
+	width: 85%;
+	height: 100px;
+	margin-bottom: 90px;
+}
+section#home section.wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+section#home section.wrapper div.left{}
+section#home section.wrapper div.left h1{
+	font-size: 30px;
+}
+section#home section.wrapper div.center{}
+section#home section.wrapper div.center ul{
+	display: flex;
+	justify-content: space-between;
+	margin-left: -30px;
+}
+section#home section.wrapper div.center ul li a{
+	margin: 10px;
+	color: black;
+	font-size: 13px;
+	
+}
+section#home section.wrapper div.right{}
+section#home section.wrapper div.right ul{
+	display: flex;
+}
+section#home section.wrapper div.right ul li{
+
+}
+section#home section.wrapper div.right ul li a{
+	margin: 20px;
+	color: #FC724D;
+	font-size: 13px;
+}
+section#home section.wrapper div.right ul li a img{
+}
+section#home section.wrapper div.right ul li button a{
+
+	color: azure;
+	padding: 10px;
+	background-color: #FC724D;
+	border-radius: 5px;
+
+}
+section#home section.wrapper div.right ul li button a img{
+	margin-left: 10px;
+}
+section#home section.spotlight{}
+section#home section.spotlight section.wrapper{}
+section#home section.spotlight section.wrapper div.text{
+	width: 70%;
+	margin-bottom: 140px;
+}
+section#home section.spotlight section.wrapper div.text	span{
+	color: #FC724D;
+	font-weight: bold;
+}
+section#home section.spotlight section.wrapper div.text h1{
+	margin-top: 40px;
+	font-size: 40px;
+	font-weight: bold;
+}	
+section#home section.spotlight section.wrapper div.text p{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+section#home section.spotlight section.wrapper div.text ul{
+	display: flex;
+}
+section#home section.spotlight section.wrapper div.text ul li button.first a{
+	color: #ffff;
+	margin-right: 20px;
+	padding: 10px 20px;
+	background-color: #FC724D;
+	border-radius: 5px;
+
+}
+section#home section.spotlight section.wrapper div.text ul li button.second a{
+	color: #FC724D;
+	padding: 10px 20px;
+	border: 1px solid #FC724D;
+	border-radius: 5px;
+	
+
+}
+
+section#secondpage{}
+section#secondpage section.wrapper{
+
+}
+section#secondpage section.wrapper div.top{
+	margin-top: 50px;
+}
+section#secondpage section.wrapper div.top span{
+	font-weight: bold;
+	color: #FC724D;
+}
+section#secondpage section.wrapper div.top h1{
+	font-size: 35px;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+section#secondpage section.wrapper div.top p{
+	color: #737373;
+	margin-bottom: 100px;
+}
+section#secondpage section.wrapper div.bottom{
+	margin-right: 30px;
+	margin-left: 30px;
+
+	display: flex;
+	justify-content: space-between;
+	
+}
+section#secondpage section.wrapper div.bottom div.box{
+	padding: 45px;
+	box-shadow: 5px 5px 20px #dad5d5;
+}
+section#secondpage section.wrapper div.bottom div.box img{
+	margin-bottom: 20px;
+	margin-top: -20px;
+}
+section#secondpage section.wrapper div.bottom div.box h3{
+	font-size: 17px;
+	font-weight: bold;
+}
+section#secondpage section.wrapper div.bottom div.box div.line{
+	margin: 20px;
+	border-bottom: 2px solid #FC724D;
+	width: 50px;
+
+}
+section#secondpage section.wrapper div.bottom div.box p{}
+section#secondpage section.wrapper div.bottom div.box.orange{
+	margin-bottom: -15px;
+	color: #ffff;
+	background-color: #FC724D;
+}
+section#secondpage section.wrapper div.bottom div.box.orange div.line{
+	border-bottom: 2px solid #ffff;
+}
+
+section#thirdpage{}
+section#thirdpage section.wrapper{
+	margin-bottom: 120px;
+	margin-top: 150px;
+	display: flex;
+	justify-content: space-between;
+}
+section#thirdpage section.wrapper div.left{}
+section#thirdpage section.wrapper div.left div.line{
+	margin-bottom: 50px;
+	margin-top: 30px;
+    border: 3px solid #FC724D;
+	width: 70px;
+}
+section#thirdpage section.wrapper div.left h1{
+	font-size: 35px;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+section#thirdpage section.wrapper div.left p{
+	color: #737373;
+	margin-bottom: 40px;
+}
+section#thirdpage section.wrapper div.left button a{
+	color: #FC724D;
+}
+
+section#thirdpage section.wrapper div.left button img{
+    height: 15px;
+	margin-left: 10px;
+	margin-bottom: -3px;
+}
+
+section#thirdpage section.wrapper div.right{
+	position: relative;
+}
+section#thirdpage section.wrapper div.right img{
+	border-radius: 10px;
+}
+section#thirdpage section.wrapper div.right button img{
+	position: absolute;
+	bottom: 40%;
+	left: 44%;
+	padding: 25px;
+	background-color: #FC724D;
+	border-radius: 50%;
+
+}
+
+
+section#fourthpage{}
+section#fourthpage section.wrapper{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+section#fourthpage section.wrapper div.left{}
+section#fourthpage section.wrapper div.left img{
+	width: 500px;
+	height: 700px;
+}
+section#fourthpage section.wrapper div.right{
+	margin-top: 140px;
+}
+section#fourthpage section.wrapper div.right div.line{
+	margin-bottom: 50px;
+	margin-top: 30px;
+    border: 3px solid #FC724D;
+	width: 70px;
+}
+section#fourthpage section.wrapper div.right h1{
+	font-size: 35px;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+section#fourthpage section.wrapper div.right p{
+	color: #737373;
+	margin-bottom: 40px;
+}
+section#fourthpage section.wrapper div.right button a{
+	color: #FC724D;
+}
+section#fourthpage section.wrapper div.right button img{
+	height: 15px;
+	margin-left: 10px;
+	margin-bottom: -3px;
+}
+
+
+section#fifthpage{}
+section#fifthpage section.wrapper{}
+section#fifthpage section.wrapper div.top{}
+section#fifthpage section.wrapper div.top span{
+	font-weight: bold;
+	color: #FC724D;
+}
+section#fifthpage section.wrapper div.top h1{
+	font-size: 35px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+section#fifthpage section.wrapper div.top p{
+	color: #737373;
+	margin-bottom: 100px;
+}
+section#fifthpage section.wrapper div.center{}
+section#fifthpage section.wrapper div.center div.image{
+	display: flex;
+	justify-content: space-between;
+}
+section#fifthpage section.wrapper div.center div.image div.box{
+	position: relative;
+}
+section#fifthpage section.wrapper div.center div.image div.box img{
+}
+section#fifthpage section.wrapper div.center div.image div.box button.sale{
+	color: #ffff;
+	padding: 5px 10px;
+	background-color: #FC724D;
+	border-radius: 5px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+
+}
+section#fifthpage section.wrapper div.center div.image div.box button.love{
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 75%;
+	right: 65%;
+}
+section#fifthpage section.wrapper div.center div.image div.box button.cart{
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 75%;
+	right: 45%;
+}
+section#fifthpage section.wrapper div.center div.image div.box button.eye{
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 75%;
+	right: 25%;
+}
+section#fifthpage section.wrapper div.bottom{
+	display: flex;
+	justify-content: space-between;
+}
+section#fifthpage section.wrapper div.bottom div.text{
+	margin-top: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 100px;
+}
+section#fifthpage section.wrapper div.bottom div.text h4{
+	color: #FC724D;
+	font-weight: bold;
+	display: inline;
+}
+section#fifthpage section.wrapper div.bottom div.text button.best{
+	padding: 5px 10px;
+	background-color: rgb(76, 76, 144);
+	border-radius: 15px;
+}
+section#fifthpage section.wrapper div.bottom div.text h3{
+	margin-top: 20px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	font-size: 20px;
+}
+section#fifthpage section.wrapper div.bottom div.text p{
+	margin-bottom: 15px;
+	font-weight: bold;
+	color: #737373;
+}
+section#fifthpage section.wrapper div.bottom div.text button.download{
+	color: #737373;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+section#fifthpage section.wrapper div.bottom div.text button.download img{
+	padding-right: 10px;
+}
+section#fifthpage section.wrapper div.bottom div.text button.dollor h4{
+	font-size: 15px;
+	color: #737373;
+}
+section#fifthpage section.wrapper div.bottom div.text button.doll h4{
+	margin-left: 10px;
+	font-size: 15px;
+	color: rgb(36, 96, 175);
+}
+section#fifthpage section.wrapper div.bottom div.text button.learn{
+	margin-top: 15px;
+	color: #FC724D;
+	padding: 10px 20px;
+	border: 1px solid #FC724D;
+	border-radius: 17px;
+}
+section#fifthpage section.wrapper div.bottom div.text button.learn img{
+	margin-left: 7px;
+	margin-bottom: -5px;
+}
+
+
+section#sixthpage{}
+section#sixthpage section.wrapper{}
+section#sixthpage section.wrapper div.top{
+	margin-top: 100px;
+}
+section#sixthpage section.wrapper div.top span{
+	font-weight: bold;
+	color: #FC724D;
+}
+section#sixthpage section.wrapper div.top h1{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+section#sixthpage section.wrapper div.top p{
+	color: #737373;
+}
+section#sixthpage section.wrapper div.bottom{
+	margin-top: 80px;
+	margin-left: 100px;
+	margin-right: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+section#sixthpage section.wrapper div.bottom div.left{
+	text-align: center;
+	margin-bottom: 200px;
+}
+section#sixthpage section.wrapper div.bottom div.left p img{
+	border-radius: 50%;
+}
+section#sixthpage section.wrapper div.bottom div.left p{
+	font-weight: bold;
+	margin-top: 15px;
+}
+section#sixthpage section.wrapper div.bottom div.left img{
+	margin-top: 15px;
+}
+section#sixthpage section.wrapper div.bottom div.left h3{
+	font-weight: bold;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+section#sixthpage section.wrapper div.bottom div.left span{
+	color: #737373;
+}
+
+
+section#seventhpage{}
+section#seventhpage section.wrapper{}
+section#seventhpage section.wrapper div.top{}
+section#seventhpage section.wrapper div.top span{
+	font-weight: bold;
+	color: #FC724D;
+}
+section#seventhpage section.wrapper div.top h1{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 30px;
+	font-weight: bold;
+}
+section#seventhpage section.wrapper div.top P{
+	margin-bottom: 50px;
+	font-weight: bold;
+	color: #737373;
+}
+section#seventhpage section.wrapper div.bottom{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+section#seventhpage section.wrapper div.bottom div.box{
+	box-shadow: 5px 5px 26px #d4cccc;
+	border-radius: 20px;
+	padding-bottom: 70px;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+section#seventhpage section.wrapper div.bottom div.box img{
+	
+}
+section#seventhpage section.wrapper div.bottom div.box h3{
+	font-weight: bold;
+	font-size: 15px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+
+}
+section#seventhpage section.wrapper div.bottom div.box span{
+	color: #737373;
+	font-size: 15px;
+	font-weight: bold;
+}
+section#seventhpage section.wrapper div.bottom div.box button.facebook{
+	position: absolute;
+	top: 85%;
+	right: 65%;
+
+}
+section#seventhpage section.wrapper div.bottom div.box button.instagram{
+	position: absolute;
+	top: 85%;
+	right: 45%;
+}
+section#seventhpage section.wrapper div.bottom div.box button.twitter{
+	position: absolute;
+	top: 85%;
+	right: 25%;
+}
+
+
+section#lastpage{}
+section#lastpage section.wrapper{}
+section#lastpage section.wrapper div.top{
+	text-align: center;
+}
+section#lastpage section.wrapper div.top span{
+	color: #FC724D;
+	font-weight: bold;
+}
+section#lastpage section.wrapper div.top h1{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+section#lastpage section.wrapper div.top p{
+	font-weight: bold;
+	color: #737373;
+}
+section#lastpage section.wrapper div.top form{}
+section#lastpage section.wrapper div.top form input{
+	padding-left: 10px;
+	width: 550px;
+	height: 45px;
+	text-align: left;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	font-size: 15px;
+	border-radius: 5px;
+	background-color: #dcd2d2;
+	border: 1px solid #c6c4c4;
+
+}
+section#lastpage section.wrapper div.top form button{
+	color: #fff;
+	margin-left: -7px;
+	width: 100px;
+	height: 46px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #FC724D;
+	margin-bottom: 100px;
+	
+}
+section#lastpage section.wrapper div.bottom{
+	margin-bottom: 100px;
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+section#lastpage section.wrapper div.bottom ul{}
+section#lastpage section.wrapper div.bottom ul h3{
+	margin-bottom: 15px;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+section#lastpage section.wrapper div.bottom ul li{
+	margin-bottom: 15px;
+	color: #737373;
+	font-size: 13px;
+	font-weight: bold;
+}
+section#lastpage section.wrapper div.bottom ul li.call img{
+	margin-left: 120px;
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	margin-bottom: -5px;
+}
+section#lastpage section.wrapper div.bottom ul li.location img{
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	margin-bottom: -5px;
+}
+section#lastpage section.wrapper div.bottom ul li.mail img{
+	margin-left: 80px;
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	margin-bottom: -5px;
+}
